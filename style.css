@@ -1,0 +1,5 @@
+#carouselExampleCaptions {
+    max-width: 50px; /* set the maximum width of the carousel */
+    margin: 0 auto; /* center the carousel horizontally */
+    max-height: 40px; /* set the maximum height of the carousel */
+  }
