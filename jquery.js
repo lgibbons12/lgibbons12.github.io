@@ -71,6 +71,6 @@ $(document).ready(function() {
     $('#thirdp').text(p3);
     $('#fourthp').text(p4);
     $("img").attr("src", imgsrc);
-    $('a').attr("href", a);
+    $('#infolink').attr("href", a);
     $('#infolink').html(atext);
   }
