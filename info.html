@@ -7,21 +7,7 @@
   <link rel="stylesheet" href="style.css">
 
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-<script>
-  $(document).ready(function() {
-    // Get the parameter value from the URL
-    var urlParams = new URLSearchParams(window.location.search);
-    var text = urlParams.get('text');
-
-    if (text == "war") {
-        $('.written').text("This is about war");
-    }
-    else if (text == "ip") {
-        $(".written").text("This is about ip")
-    }
-    
-  });
-</script>
+<script src="jquery.js"></script>
     </head>
     <body>
         <nav>
@@ -29,14 +15,21 @@
               <li><a href="index.html">Home</a></li>
               <li><a href="about.html">About</a></li>
               <li><a href="projects.html">Projects</a></li>
-              <li><a href="contact.html">Contact</a></li>
             </ul>
           </nav>
           <div class="main">
           <section id="about">
             <h1></h1>
-            <p class="written"></p>
-            
+            <div>
+              <img src="" class="image">
+            </div>
+            <div id="infodiv">
+            <p class="written" id="firstp"></p>
+            <p class = "written" id="secondp"></p>
+            <p class = "written" id="thirdp"></p>
+            <p class = "written" id="fourthp"></p>
+            <a href="" class="written" id="linkinfo"></a>
+          </div>
           </section>
           
              

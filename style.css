@@ -177,3 +177,31 @@ footer {
 .projectlink:hover {
   background-color: #84E6F8;
 }
+
+.image {
+  float: right;
+  width: 40%;
+  margin: 0 0 20px 20px;
+}
+
+.written {
+  float: left;
+  width: 50%;
+  margin: 0 20px 20px 0;
+}
+
+#linkinfo {
+  color: #0074D9; /* Sets link color */
+  text-decoration: none; /* Removes underline by default */
+  font-weight: bold; /* Makes text bold */
+  transition: color 0.2s ease-in-out; /* Adds a smooth color transition */
+  padding: 60px;
+  text-align: center;
+}
+
+#linkinfo:hover {
+  color: #7FDBFF; /* Changes link color on hover */
+  text-decoration: underline; /* Adds underline on hover */
+  background-color: #BFADA3;
+}
+
